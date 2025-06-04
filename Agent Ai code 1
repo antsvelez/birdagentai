@@ -930,3 +930,115 @@
     }
   ]
 }
+# Database Configuration
+DB_USERNAME=root
+DB_PASSWORD=antsbug123
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=mydb
+
+# Flask Configuration
+FLASK_SECRET_KEY=antsbuglife123
+FLASK_APP=app.py
+FLASK_ENV=production
+
+# JWT Configuration
+JWT_SECRET_KEY=123bugsieat
+
+# Email Configuration (if needed)
+EMAIL_HOST=smtp.gmail.com
+EMAIL_PORT=587
+EMAIL_USERNAME=your_email@gmail.com
+EMAIL_PASSWORD=your_email_password
+
+# Other Configuration
+DEBUG=False
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Database
+*.db
+*.sqlite3
+
+# Build files
+dist/
+build/
+*.pyc
+__pycache__/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Debug logs
+*.log
+Flask==2.3.3
+Flask-SQLAlchemy==3.1.1
+Flask-Cors==4.0.0
+python-dotenv==1.0.0
+PyMySQL==1.1.0
+gunicorn==21.2.0
+Werkzeug==2.3.7
+Jinja2==3.1.2
+itsdangerous==2.1.2
+click==8.1.7
+MarkupSafe==2.1.3
+SQLAlchemy==2.0.23
+email-validator==2.1.0.post1
+python-jose==3.3.0
+cryptography==41.0.3
+
+pip freeze > requirements.txt
