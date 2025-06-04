@@ -1043,31 +1043,3 @@ cryptography==41.0.3
 
 pip freeze > requirements.txt
 
-{
-  "name": "birdagentai",
-  "version": "1.0.0",
-  "description": "Bird AI Agent Project",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {},
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC"
-}
-
-npm init -y
-npm install
-
-npm install
-
-yarn install
-
-git add package-lock.json
-git commit -m "Add package-lock.json for dependency management"
-git push
-
-- name: Install dependencies
-  run: pip install -r requirements.txt
