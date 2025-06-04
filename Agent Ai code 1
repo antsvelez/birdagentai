@@ -1043,5 +1043,20 @@ cryptography==41.0.3
 
 pip freeze > requirements.txt
 
-npm install
+{
+  "name": "birdagentai",
+  "version": "1.0.0",
+  "description": "Bird AI Agent Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 
+
+npm init -y
+npm install
