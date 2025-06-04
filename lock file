@@ -1,0 +1,7 @@
+npm install
+
+yarn install
+
+git add package-lock.json
+git commit -m "Add package-lock.json for dependency management"
+git push
